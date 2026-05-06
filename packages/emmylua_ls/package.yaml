@@ -10,7 +10,7 @@ categories:
   - LSP
 
 source:
-  id: pkg:github/CppCXY/emmylua-analyzer-rust@0.21.0
+  id: pkg:github/CppCXY/emmylua-analyzer-rust@0.22.0
   asset:
     - target: darwin_arm64
       file: emmylua_ls-darwin-arm64.tar.gz
@@ -19,16 +19,10 @@ source:
       file: emmylua_ls-darwin-x64.tar.gz
       bin: emmylua_ls
     - target: linux_arm64_gnu
-      file: emmylua_ls-linux-aarch64-glibc.2.17.tar.gz
+      file: emmylua_ls-linux-arm64-glibc.2.17.tar.gz
       bin: emmylua_ls
-    - target: linux_x64_musl
+    - target: linux_x64
       file: emmylua_ls-linux-musl.tar.gz
-      bin: emmylua_ls
-    - target: linux_x64_gnu
-      file: emmylua_ls-linux-x64-glibc.2.17.tar.gz
-      bin: emmylua_ls
-    - target: linux_x64_gnu
-      file: emmylua_ls-linux-x64.tar.gz
       bin: emmylua_ls
     - target: win_arm64
       file: emmylua_ls-win32-arm64.zip
